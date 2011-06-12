@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D60D419413A4F97C00203FEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60D419313A4F97C00203FEE /* UIKit.framework */; };
+		D60D419613A4F97C00203FEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60D419513A4F97C00203FEE /* Foundation.framework */; };
+		D60D419813A4F97C00203FEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60D419713A4F97C00203FEE /* CoreGraphics.framework */; };
+		D60D419E13A4F97C00203FEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D60D419C13A4F97C00203FEE /* InfoPlist.strings */; };
+		D60D41A113A4F97C00203FEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D60D41A013A4F97C00203FEE /* main.m */; };
+		D60D41A413A4F97C00203FEE /* BusWamsudaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D60D41A313A4F97C00203FEE /* BusWamsudaAppDelegate.m */; };
+		D60D41A713A4F97C00203FEE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D60D41A513A4F97C00203FEE /* MainWindow.xib */; };
+		D60D41AA13A4F97C00203FEE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60D41A913A4F97C00203FEE /* FirstViewController.m */; };
+		D60D41AD13A4F97C00203FEE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D60D41AC13A4F97C00203FEE /* SecondViewController.m */; };
+		D60D41B013A4F97C00203FEE /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D60D41AE13A4F97C00203FEE /* FirstView.xib */; };
+		D60D41B313A4F97C00203FEE /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D60D41B113A4F97C00203FEE /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D60D418F13A4F97C00203FEE /* BusWamsuda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusWamsuda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60D419313A4F97C00203FEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D60D419513A4F97C00203FEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D60D419713A4F97C00203FEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D60D419B13A4F97C00203FEE /* BusWamsuda-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BusWamsuda-Info.plist"; sourceTree = "<group>"; };
+		D60D419D13A4F97C00203FEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D60D419F13A4F97C00203FEE /* BusWamsuda-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BusWamsuda-Prefix.pch"; sourceTree = "<group>"; };
+		D60D41A013A4F97C00203FEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D60D41A213A4F97C00203FEE /* BusWamsudaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BusWamsudaAppDelegate.h; sourceTree = "<group>"; };
+		D60D41A313A4F97C00203FEE /* BusWamsudaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusWamsudaAppDelegate.m; sourceTree = "<group>"; };
+		D60D41A613A4F97C00203FEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D60D41A813A4F97C00203FEE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		D60D41A913A4F97C00203FEE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D60D41AB13A4F97C00203FEE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D60D41AC13A4F97C00203FEE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D60D41AF13A4F97C00203FEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		D60D41B213A4F97C00203FEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D60D418C13A4F97C00203FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60D419413A4F97C00203FEE /* UIKit.framework in Frameworks */,
+				D60D419613A4F97C00203FEE /* Foundation.framework in Frameworks */,
+				D60D419813A4F97C00203FEE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D60D418413A4F97C00203FEE = {
+			isa = PBXGroup;
+			children = (
+				D60D419913A4F97C00203FEE /* BusWamsuda */,
+				D60D419213A4F97C00203FEE /* Frameworks */,
+				D60D419013A4F97C00203FEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D60D419013A4F97C00203FEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D60D418F13A4F97C00203FEE /* BusWamsuda.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D60D419213A4F97C00203FEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D60D419313A4F97C00203FEE /* UIKit.framework */,
+				D60D419513A4F97C00203FEE /* Foundation.framework */,
+				D60D419713A4F97C00203FEE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D60D419913A4F97C00203FEE /* BusWamsuda */ = {
+			isa = PBXGroup;
+			children = (
+				D60D41A213A4F97C00203FEE /* BusWamsudaAppDelegate.h */,
+				D60D41A313A4F97C00203FEE /* BusWamsudaAppDelegate.m */,
+				D60D41A513A4F97C00203FEE /* MainWindow.xib */,
+				D60D41A813A4F97C00203FEE /* FirstViewController.h */,
+				D60D41A913A4F97C00203FEE /* FirstViewController.m */,
+				D60D41AB13A4F97C00203FEE /* SecondViewController.h */,
+				D60D41AC13A4F97C00203FEE /* SecondViewController.m */,
+				D60D41AE13A4F97C00203FEE /* FirstView.xib */,
+				D60D41B113A4F97C00203FEE /* SecondView.xib */,
+				D60D419A13A4F97C00203FEE /* Supporting Files */,
+			);
+			path = BusWamsuda;
+			sourceTree = "<group>";
+		};
+		D60D419A13A4F97C00203FEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D60D419B13A4F97C00203FEE /* BusWamsuda-Info.plist */,
+				D60D419C13A4F97C00203FEE /* InfoPlist.strings */,
+				D60D419F13A4F97C00203FEE /* BusWamsuda-Prefix.pch */,
+				D60D41A013A4F97C00203FEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D60D418E13A4F97C00203FEE /* BusWamsuda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60D41B613A4F97C00203FEE /* Build configuration list for PBXNativeTarget "BusWamsuda" */;
+			buildPhases = (
+				D60D418B13A4F97C00203FEE /* Sources */,
+				D60D418C13A4F97C00203FEE /* Frameworks */,
+				D60D418D13A4F97C00203FEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusWamsuda;
+			productName = BusWamsuda;
+			productReference = D60D418F13A4F97C00203FEE /* BusWamsuda.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D60D418613A4F97C00203FEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = noritech;
+			};
+			buildConfigurationList = D60D418913A4F97C00203FEE /* Build configuration list for PBXProject "BusWamsuda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D60D418413A4F97C00203FEE;
+			productRefGroup = D60D419013A4F97C00203FEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D60D418E13A4F97C00203FEE /* BusWamsuda */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D60D418D13A4F97C00203FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60D419E13A4F97C00203FEE /* InfoPlist.strings in Resources */,
+				D60D41A713A4F97C00203FEE /* MainWindow.xib in Resources */,
+				D60D41B013A4F97C00203FEE /* FirstView.xib in Resources */,
+				D60D41B313A4F97C00203FEE /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D60D418B13A4F97C00203FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60D41A113A4F97C00203FEE /* main.m in Sources */,
+				D60D41A413A4F97C00203FEE /* BusWamsudaAppDelegate.m in Sources */,
+				D60D41AA13A4F97C00203FEE /* FirstViewController.m in Sources */,
+				D60D41AD13A4F97C00203FEE /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D60D419C13A4F97C00203FEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60D419D13A4F97C00203FEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D60D41A513A4F97C00203FEE /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60D41A613A4F97C00203FEE /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D60D41AE13A4F97C00203FEE /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60D41AF13A4F97C00203FEE /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		D60D41B113A4F97C00203FEE /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D60D41B213A4F97C00203FEE /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D60D41B413A4F97C00203FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D60D41B513A4F97C00203FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D60D41B713A4F97C00203FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusWamsuda/BusWamsuda-Prefix.pch";
+				INFOPLIST_FILE = "BusWamsuda/BusWamsuda-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D60D41B813A4F97C00203FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BusWamsuda/BusWamsuda-Prefix.pch";
+				INFOPLIST_FILE = "BusWamsuda/BusWamsuda-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D60D418913A4F97C00203FEE /* Build configuration list for PBXProject "BusWamsuda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60D41B413A4F97C00203FEE /* Debug */,
+				D60D41B513A4F97C00203FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60D41B613A4F97C00203FEE /* Build configuration list for PBXNativeTarget "BusWamsuda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60D41B713A4F97C00203FEE /* Debug */,
+				D60D41B813A4F97C00203FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D60D418613A4F97C00203FEE /* Project object */;
+}
